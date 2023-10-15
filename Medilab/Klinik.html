@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #6bb9f0; /* Mengatur warna latar belakang keseluruhan halaman */
+      }
+
+      .header {
+        background-color: #5c97bf;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      h1 {
+        color: black;
+        font-size: 2rem;
+      }
+
+      .centered-image {
+        text-align: center;
+      }
+
+      img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .search-container {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+
+      .search-input {
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 10px;
+        width: 200px;
+      }
+
+      .search-button {
+        background-color: #0074d9;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+
+      /* Gaya untuk kata "RSND" dan "RS Banyumanik 1" */
+      .image-text {
+        color: black;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 10px; /* Memberikan sedikit ruang antara gambar dan teks "RSND" dan "RS Banyumanik 1" */
+      }
+    </style>
+    <script>
+      function search() {
+        // Mendapatkan nilai pencarian dari input
+        var searchTerm = document.getElementById("search-input").value;
+
+        // Logika pemrosesan pencarian atau aksi yang sesuai dapat ditambahkan di sini
+        // Contoh: window.location.href = 'https://example.com/search?q=' + searchTerm;
+
+        alert("Anda mencari: " + searchTerm);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Informasi Klinik di Kecamatan Tembalang & Banyumanik</h1>
+    </div>
+
+    <!-- Klinik Nurul Salaf -->
+    <div class="centered-image">
+      <p class="image-text">Klinik Nurul Salaf</p>
+      <!-- Tambahkan kata "RSND" di atas gambar -->
+      <img src="assets/img/Offline/Nurul Salaf.jpg" alt="Klinik Nurul Salaf" />
+    </div>
+
+    <!-- Form Pencarian -->
+    <div class="search-container">
+      <input
+        type="text"
+        id="search-input"
+        class="search-input"
+        placeholder="Cari..."
+      />
+      <button type="button" class="search-button" onclick="search()">
+        Search
+      </button>
+    </div>
+
+    <!-- Tabel Klinik Nurul Salaf -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Klinik Nurul Salaf:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Klinik Nurul Salaf</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl. Kanfer Raya No.1, Pedalangan, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50268</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>(024) 7470122</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Senin - Sabtu pukul 08.00 - 21.00</td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+    <!-- Klinik Sehati -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Klinik Sehati</p>
+      <img src="assets/img/Offline/Klinik Sehati.jpg" alt="Klinik Sehati" />
+    </div>
+
+    <!-- Tabel Klinik Sehati -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Klinik Sehati:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Klinik Sehati</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl. Cemara III No.3, Padangsari, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50266</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>(024) 76480410</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Senin - Sabtu pukul 08.00 - 21.00</td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+    <!-- Klinik Utama Harapan Sehat Keluarga -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Klinik Utama Harapan Sehat Keluarga</p>
+      <img src="assets/img/Offline/Klinik Utama Harapan Sehat Keluarga.jpg" alt="Klinik Utama Harapan Sehat Keluarga" />
+    </div>
+
+    <!-- Tabel Klinik Utama Harapan Sehat Keluarga -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Klinik Utama Harapan Sehat Keluarga:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Klinik Utama Harapan Sehat Keluarga</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl. Mutiara Gading Residence blok AA No 11, Tulus Harapan, Sendang Mulyo, Kec. Tembalang, Kota Semarang, Jawa Tengah 50272</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>082180008201</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Senin - Sabtu pukul 08.00 - 21.00</td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+        <!-- Klinik Nur Aini -->
+        <div class="rs-banyumanik">
+          <p class="image-text">Klinik Nur Aini/p>
+          <img src="assets/img/Offline/Klinik Nur Aini.jpeg" alt="Klinik Nur Aini" />
+        </div>
+    
+        <!-- Tabel Klinik Nur Aini -->
+        <div>
+          Berikut merupakan informasi lebih detail mengenai Klinik Nur Aini:
+        </div>
+        <div>
+        <table border="3" style="width: 100%; justify-content: center;"
+        <tr>
+          <th colspan="2">Klinik Nur Aini</th>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>Graha golf Jl. Mawar I No 11 Klipang, Sendang Mulyo, Tengah, Tembalang, Kota Semarang, Jawa Tengah 50135</td>
+        </tr>
+        <tr>
+          <td>Poli Umum</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Gigi</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Anak</td>
+          <td>Tidak Ada</td>
+        </tr>
+        <tr>
+          <td>BPJS</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Kontak</td>
+          <td>(024) 76739264</td>
+        </tr>
+        <tr>
+          <td>Jam Operasional</td>
+          <td>Senin - Sabtu pukul 08.00 - 21.00</td>
+        </tr>
+            </div>
+          </table>
+        </div>
+
+    <!-- Klinik Mardi Mulya -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Klinik Mardi Mulya</p>
+      <img src="assets/img/Offline/Mardi Mulya.jpg" alt="Klinik Mardi Mulya" />
+    </div>
+
+    <!-- Tabel Klinik Mardi Mulya -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Klinik Mardi Mulya:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Klinik Mardi Mulya</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl. Jatimulyo No.1, Pendalangan, Kec. Banyumanik, Kota Semarang, Jawa Tengah, 50268</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>(024) 76407412</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Senin - Sabtu pukul 08.00 - 21.00</td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+        <!-- Klinik Pratama Puri Husada -->
+        <div class="rs-banyumanik">
+          <p class="image-text">Klinik Pratama Puri Husada</p>
+          <img src="assets/img/Offline/Klinik Pratama Puri Husada.jpg" alt="Klinik Pratama Puri Husada" />
+        </div>
+    
+        <!-- Tabel Klinik Pratama Puri Husada -->
+        <div>
+          Berikut merupakan informasi lebih detail mengenai Klinik Pratama Puri Husada:
+        </div>
+        <div>
+        <table border="3" style="width: 100%; justify-content: center;"
+        <tr>
+          <th colspan="2">Klinik Pratama Puri Husada</th>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>Jl. KH. Sirojudin No.29, Tembalang, Kec. Tembalang, Kota Semarang, Jawa Tengah 50275</td>
+        </tr>
+        <tr>
+          <td>Poli Umum</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Gigi</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Anak</td>
+          <td>Tidak Ada</td>
+        </tr>
+        <tr>
+          <td>BPJS</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Kontak</td>
+          <td>089604897084</td>
+        </tr>
+        <tr>
+          <td>Jam Operasional</td>
+          <td>Senin - Sabtu pukul 08.00 - 21.00</td>
+        </tr>
+            </div>
+          </table>
+        </div>
+
+    <!-- Klinik Mitra Umat -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Klinik Mitra Umat</p>
+      <img src="assets/img/Offline/Klinik mitra umat.jpeg" alt="Klinik Mitra Umat" />
+    </div>
+
+    <!-- Tabel Klinik Pratama Diponegoro 1 -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Klinik Mitra Umat:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Klinik Mitra Umat</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl. Bulusan VI No.34, Bulusan, Kec. Tembalang, Kota Semarang, Jawa Tengah 50277</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>085848692815</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Senin - Sabtu pukul 08.00 - 21.00</td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+    <!-- Klinik Mitra 24 -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Klinik Mitra 24</p>
+      <img src="assets/img/Offline/Mitra 24.jpg" alt="Klinik Mitra 24" />
+    </div>
+
+    <!-- Tabel Klinik Mitra 24 -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Klinik Mitra 24:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Klinik Mitra 24</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl. Banjarsari No.28a, RT.5/RW.3, Tembalang, Kec. Tembalang, Kota Semarang, Jawa Tengah 50275</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>(024) 70040606</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Senin - Sabtu pukul 08.00 - 21.00</td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+    <!-- Klinik Setia Budi -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Klinik Setia Budi</p>
+      <img src="assets/img/Offline/Klinik Setia Budi.jpeg" alt="Klinik Setia Budi" />
+    </div>
+
+    <!-- Tabel Klinik Setia Budi -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Klinik Setia Budi:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Klinik Setia Budi</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl. Setiabudi 120A Kode Pos 50269</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>(024) 7461645</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Senin - Sabtu pukul 08.00 - 21.00</td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+    <!-- Klinik Ruby Medika -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Klinik Ruby Medika</p>
+      <img src="assets/img/Offline/Klinik Ruby Medika.jpg" alt="Klinik Ruby Medika" />
+    </div>
+
+    <!-- Tabel Klinik Ruby Medika -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Klinik Ruby Medika:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Klinik Ruby Medika</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Srondol Kulon, Banyumanik, Semarang City, Central Java 50263, Indonesia</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>082134850837</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Senin - Sabtu pukul 08.00 - 21.00</td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+    <!-- Klinik Pratama Kimia Farma Banyumanik -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Klinik Pratama Kimia Farma Banyumanik</p>
+      <img src="assets/img/Offline/Pratama Kimia Farma Banyumanik.jpeg" alt="Klinik Pratama Kimia Farma Banyumanik" />
+    </div>
+
+    <!-- Tabel Klinik Pratama Diponegoro 1 -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Klinik Pratama Kimia Farma Banyumanik:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Klinik Pratama Kimia Farma Banyumanik</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl. Jati Raya, Srondol Wetan, Banyumanik</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>(024) 7464268</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Senin - Sabtu pukul 08.00 - 21.00</td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+    <!-- Klinik 24 -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Klinik 24</p>
+      <img src="assets/img/Offline/klinik 24.jpeg" alt="Klinik 24" />
+    </div>
+
+    <!-- Tabel Klinik 24 -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Klinik 24:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Klinik 24</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl Jati Raya Bl E/8, Banyumanik, Banyumanik, Semarang 50264 Jawa Tengah</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>(024) 7464588</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Setiap hari 24 jam</td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+    <!-- Klinik Bina Medika -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Klinik Bina Medika</p>
+      <img src="assets/img/Offline/Klinik Bina Medika.jpg" alt="Klinik Bina Medika" />
+    </div>
+
+    <!-- Tabel Klinik Pratama Diponegoro 1 -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Klinik Bina Medika:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Klinik Bina Medika</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl. Gaharu Raya No.19, Srondol Wetan, Banyumanik</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>089590023456</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Senin - Sabtu pukul 08.00 - 21.00</td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+    <!-- Klinik Kusuma Medika -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Klinik Kusuma Medika</p>
+      <img src="assets/img/Offline/Mitra 24.jpg" alt="Klinik Kusuma Medika" />
+    </div>
+
+    <!-- Tabel Klinik Pratama Diponegoro 1 -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Klinik Kusuma Medika:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Klinik Kusuma Medika</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Gg. Mangga No.3, Srondol Wetan, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50263, Indonesia</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>085642077849</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Setiap hari Pagi : 07.00 - 11.00 WIB dan Sore : 16.00 - 20.00 WIB </td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+    <!-- Klinik Pratama Rawat Inap ST Elizabeth -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Klinik Pratama Rawat Inap ST Elizabeth</p>
+      <img src="assets/img/Offline/Klinik mitra umat.jpeg" alt="Klinik Pratama Rawat Inap ST Elizabeth" />
+    </div>
+
+    <!-- Tabel Pratama Rawat Inap ST Elizabeth -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Pratama Rawat Inap ST Elizabeth:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Pratama Rawat Inap ST Elizabeth</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl. Cemara Raya No.290, Padangsari, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50267, Indonesia</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>(024) 7473304</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>Setiap hari 24 jam </td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+  </body>
+</html>

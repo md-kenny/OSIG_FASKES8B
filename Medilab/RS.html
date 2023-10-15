@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #6bb9f0; /* Mengatur warna latar belakang keseluruhan halaman */
+      }
+
+      .header {
+        background-color: #5c97bf;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      h1 {
+        color: black;
+        font-size: 2rem;
+      }
+
+      .centered-image {
+        text-align: center;
+      }
+
+      img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .search-container {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+
+      .search-input {
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 10px;
+        width: 200px;
+      }
+
+      .search-button {
+        background-color: #0074d9;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+
+      /* Gaya untuk kata "RSND" dan "RS Banyumanik 1" */
+      .image-text {
+        color: black;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 10px; /* Memberikan sedikit ruang antara gambar dan teks "RSND" dan "RS Banyumanik 1" */
+      }
+    </style>
+    <script>
+      function search() {
+        // Mendapatkan nilai pencarian dari input
+        var searchTerm = document.getElementById("search-input").value;
+
+        // Logika pemrosesan pencarian atau aksi yang sesuai dapat ditambahkan di sini
+        // Contoh: window.location.href = 'https://example.com/search?q=' + searchTerm;
+
+        alert("Anda mencari: " + searchTerm);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Informasi Rumah Sakit di Kecamatan Tembalang & Banyumanik</h1>
+    </div>
+
+    <!-- RSND -->
+    <div class="centered-image">
+      <p class="image-text">RSND</p>
+      <!-- Tambahkan kata "RSND" di atas gambar -->
+      <img src="assets/img/Offline/rsnd.jpg" alt="RSND" />
+    </div>
+
+    <!-- Form Pencarian -->
+    <div class="search-container">
+      <input
+        type="text"
+        id="search-input"
+        class="search-input"
+        placeholder="Cari..."
+      />
+      <button type="button" class="search-button" onclick="search()">
+        Search
+      </button>
+    </div>
+
+    <!-- Tabel RSND -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Rumah Sakit Nasional
+      Diponegoro:
+    </div>
+    <div>
+      <table border="3" style="width: 100%; justify-content: center">
+        <!-- Isi tabel RSND di sini -->
+        <tr>
+          <th colspan="2">RSND</th>
+        </tr>
+        <tr>
+          <td>Website Rumah Sakit</td>
+          <td><a href="https://rsnd.undip.ac.id/">Website RSND</a></td>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>Jl. Prof. Moeljono S. Trastotenojo, Tembalang, Kec. Tembalang, Kota Semarang</td>
+        </tr>
+        <tr>
+          <td>Poli THT</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Kulit & Kelamin</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Mata</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Gigi & Mulut</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Bedah</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Umum</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>BPJS</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Ambulance</td>
+          <td>4 buah</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>Kontak</td>
+          <td>082123466354</td>
+        </tr>
+        <tr>
+          <td>Jam Operasional</td>
+          <td>Setiap hari 24 jam </td>
+        </tr>
+        </div>
+      </table>
+    </div>
+
+    <!-- RS Banyumanik 1 -->
+    <div class="rs-banyumanik">
+      <p class="image-text">RS Banyumanik 1</p>
+      <!-- Tambahkan kata "RS Banyumanik 1" di atas gambar -->
+      <img src="assets/img/Offline/rs banyumanik 1.png" alt="RS Banyumanik 1" />
+    </div>
+
+    <!-- Tabel RS Banyumanik 1 -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai RS Banyumanik 1:
+    </div>
+    <div>
+      <table border="3" style="width: 100%; justify-content: center">
+        <!-- Isi tabel RS Banyumanik 1 di sini -->
+        <tr>
+          <th colspan="2">RS Banyumanik 1</th>
+        </tr>
+        <tr>
+          <td>Website Rumah Sakit</td>
+          <td><a href="https://rsbanyumanik.com/">Website RS Banyumanik 1</a></td>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>Jl. Bina Remaja No.61, Srondol Wetan, Kec. Banyumanik, Kota Semarang</td>
+        </tr>
+        <tr>
+          <td>Poli THT</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Kulit & Kelamin</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Mata</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Gigi & Mulut</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Bedah</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Umum</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>BPJS</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Ambulance</td>
+          <td>4 buah</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>Kontak</td>
+          <td>085200444664</td>
+        </tr>
+        <tr>
+          <td>Jam Operasional</td>
+          <td>Setiap hari 24 jam </td>
+        </tr>
+        </div>
+      </table>
+    </div>
+
+        <!-- RS Banyumanik 2 -->
+        <div class="rs-banyumanik">
+          <p class="image-text">RS Banyumanik 2</p>
+          <!-- Tambahkan kata "RS Banyumanik 2" di atas gambar -->
+          <img src="assets/img/Offline/rs banyumanik 2.png" alt="RS Banyumanik 2" />
+        </div>
+    
+        <!-- Tabel RS Banyumanik 2 -->
+        <div>
+          Berikut merupakan informasi lebih detail mengenai RS Banyumanik 2:
+        </div>
+        <div>
+          <table border="3" style="width: 100%; justify-content: center">
+            <!-- Isi tabel RS Banyumanik 2 di sini -->
+            <tr>
+              <th colspan="2">RS Banyumanik 2</th>
+            </tr>
+            <tr>
+              <td>Website Rumah Sakit</td>
+              <td><a href="https://rsbanyumanik.com/">Website RS Banyumanik 2</a></td>
+            </tr>
+            <tr>
+              <td>Alamat</td>
+              <td>Jl. Perintis Kemerdekaan No.57, Banyumanik, Kota Semarang</td>
+            </tr>
+            <tr>
+              <td>Poli THT</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>Poli Kulit & Kelamin</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>Poli Mata</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>Poli Gigi & Mulut</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>Poli Bedah</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>Poli Umum</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>BPJS</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>Ambulance</td>
+              <td>4 buah</td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <td>Kontak</td>
+              <td>082123466354</td>
+            </tr>
+            <tr>
+              <td>Jam Operasional</td>
+              <td>Setiap hari 24 jam </td>
+            </tr>
+            </div>
+          </table>
+        </div>
+
+        <!-- RS Hermina Banyumanik -->
+        <div class="rs-banyumanik">
+          <p class="image-text">RS Hermina Banyumanik</p>
+          <!-- Tambahkan kata "RS Hermina Banyumanik" di atas gambar -->
+          <img src="assets/img/Offline/rs hermina.jpg" alt="RS Hermina Banyumanik" />
+        </div>
+    
+        <!-- Tabel RS Hermina Banyumanik -->
+        <div>
+          Berikut merupakan informasi lebih detail mengenai RS Hermina Banyumanik:
+        </div>
+        <div>
+          <table border="3" style="width: 100%; justify-content: center">
+            <!-- Isi tabel RS Banyumanik 1 di sini -->
+            <tr>
+              <th colspan="2">RS Hermina Banyumanik</th>
+            </tr>
+            <tr>
+              <td>Website Rumah Sakit</td>
+              <td><a href="https://rsbanyumanik.com/">Website RS Hermina Banyumanik</a></td>
+            </tr>
+            <tr>
+              <td>Alamat</td>
+              <td>Jl. Jenderal Pol Anton Sujarwo No.195A, Srondol Wetan, Kec. Banyumanik, Kota Semarang</td>
+            </tr>
+            <tr>
+              <td>Poli THT</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>Poli Kulit & Kelamin</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>Poli Mata</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>Poli Gigi & Mulut</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>Poli Bedah</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>Poli Umum</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>BPJS</td>
+              <td>Ada</td>
+            </tr>
+            <tr>
+              <td>Ambulance</td>
+              <td>4 buah</td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <td>Kontak</td>
+              <td>(024) 76488989</td>
+            </tr>
+            <tr>
+              <td>Jam Operasional</td>
+              <td>Setiap hari 24 jam </td>
+            </tr>
+            </div>
+          </table>
+        </div>
+            
+  </body>
+</html>

@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #6bb9f0; /* Mengatur warna latar belakang keseluruhan halaman */
+      }
+
+      .header {
+        background-color: #5c97bf;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      h1 {
+        color: black;
+        font-size: 2rem;
+      }
+
+      .centered-image {
+        text-align: center;
+      }
+
+      img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .search-container {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+
+      .search-input {
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 10px;
+        width: 200px;
+      }
+
+      .search-button {
+        background-color: #0074d9;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+
+      /* Gaya untuk kata "RSND" dan "RS Banyumanik 1" */
+      .image-text {
+        color: black;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 10px; /* Memberikan sedikit ruang antara gambar dan teks "RSND" dan "RS Banyumanik 1" */
+      }
+    </style>
+    <script>
+      function search() {
+        // Mendapatkan nilai pencarian dari input
+        var searchTerm = document.getElementById("search-input").value;
+
+        // Logika pemrosesan pencarian atau aksi yang sesuai dapat ditambahkan di sini
+        // Contoh: window.location.href = 'https://example.com/search?q=' + searchTerm;
+
+        alert("Anda mencari: " + searchTerm);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Informasi Puskesmas di Kecamatan Tembalang & Banyumanik</h1>
+    </div>
+
+    <!-- Puskesmas Ngesrep -->
+    <div class="centered-image">
+      <p class="image-text">Puskesmas Ngesrep</p>
+      <img src="assets/img/Offline/FOTO PUSKESMAS/Puskesmas ngesrep.jpg" alt="Puskesmas Ngesrep" />
+    </div>
+
+    <!-- Form Pencarian -->
+    <div class="search-container">
+      <input
+        type="text"
+        id="search-input"
+        class="search-input"
+        placeholder="Cari..."
+      />
+      <button type="button" class="search-button" onclick="search()">
+        Search
+      </button>
+    </div>
+
+    <!-- Puskesmas Ngesrep-->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Puskemas Ngesrep:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Puskemas Ngesrep</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl. Teuku Umar No.271, Ngesrep, Kec. Banyumanik, Kota Semarang</td>
+    </tr>
+    <tr>
+      <td>Bidan</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td> Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Ambulance</td>
+      <td>1 buah</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>(024) 7474113</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>senin - jumat jam 8.00-16.00 </td>
+    </tr>
+  </div>
+</table>
+</div>
+
+    <!-- Puskesmas Srondol -->
+    <div class="rs-banyumanik">
+      <p class="image-text">Puskesmas Srondol</p>
+      <img src="assets/img/Offline/FOTO PUSKESMAS/Puskesmas Srondol.jpeg" alt="Puskesmas Srondol" />
+    </div>
+
+    <!-- Puskesmas Srondol -->
+    <div>
+      Berikut merupakan informasi lebih detail mengenai Puskemas Srondol:
+    </div>
+    <div>
+    <table border="3" style="width: 100%; justify-content: center;"
+    <tr>
+      <th colspan="2">Puskemas Srondol</th>
+    </tr>
+    <tr>
+      <td>Alamat</td>
+      <td>Jl. Setia Budi No.209, Srondol Kulon, Kec. Banyumanik, Kota Semarang</td>
+    </tr>
+    <tr>
+      <td>Bidan</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Umum</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Anak</td>
+      <td>Tidak Ada</td>
+    </tr>
+    <tr>
+      <td>Poli Gigi</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>BPJS</td>
+      <td>Ada</td>
+    </tr>
+    <tr>
+      <td>Ambulance</td>
+      <td>1 buah</td>
+    </tr>
+    <tr>
+      <td>Kontak</td>
+      <td>(024) 7472852</td>
+    </tr>
+    <tr>
+      <td>Jam Operasional</td>
+      <td>senin - jumat jam 8.00-16.00 </td>
+    </tr>
+        </div>
+      </table>
+    </div>
+
+        <!-- Puskemas Padangsari -->
+        <div class="rs-banyumanik">
+          <p class="image-text">Puskemas Padangsari</p>
+          <img src="assets/img/Offline/FOTO PUSKESMAS/puskesmas padangsari.jpeg" alt="Puskemas Padangsari" />
+        </div>
+    
+        <!-- Tabel Puskemas Padangsari -->
+  
+        <div>
+          Berikut merupakan informasi lebih detail mengenai Puskemas Padangsari:
+        </div>
+        <div>
+        <table border="3" style="width: 100%; justify-content: center;"
+        <tr>
+          <th colspan="2">Puskemas Padangsari</th>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>Jl. Meranti Raya No.389, Padangsari, Kec. Banyumanik, Kota Semarang</td>
+        </tr>
+        <tr>
+          <td>Bidan</td>
+          <td>Tidak Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Umum</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Anak</td>
+          <td>Tidak Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Gigi</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>BPJS</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Ambulance</td>
+          <td>Tidak Ada</td>
+        </tr>
+        <tr>
+          <td>Kontak</td>
+          <td>(024) 7472460</td>
+        </tr>
+        <tr>
+          <td>Jam Operasional</td>
+          <td>senin - jumat jam 8.00-16.00 </td>
+        </tr>
+            </div>
+          </table>
+        </div>
+
+        <!-- Puskemas Pundakpayung -->
+        <div class="rs-banyumanik">
+          <p class="image-text">Puskemas Pundakpayung</p>
+          <img src="assets/img/Offline/FOTO PUSKESMAS/Puskesmas Pudakpayung.jpg" alt="Puskemas Pundakpayung" />
+        </div>
+    
+        <!-- Tabel Puskemas Pundakpayung -->
+        <div>
+          Berikut merupakan informasi lebih detail mengenai Puskemas Pundakpayung:
+        </div>
+        <div>
+        <table border="3" style="width: 100%; justify-content: center;"
+        <tr>
+          <th colspan="2">Puskemas Pundakpayung</th>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>Jl. Payung Mas Raya, Pudakpayung, Kec. Banyumanik, Kota Semarang</td>
+        </tr>
+        <tr>
+          <td>Bidan</td>
+          <td>Tidak Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Umum</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Anak</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Gigi</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>BPJS</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Ambulance</td>
+          <td>1 buah</td>
+        </tr>
+        <tr>
+          <td>Kontak</td>
+          <td>(024) 7462711</td>
+        </tr>
+        <tr>
+          <td>Jam Operasional</td>
+          <td>senin - jumat jam 8.00-16.00 </td>
+        </tr>
+            </div>
+          </table>
+        </div>
+            
+
+        <!-- Puskemas Kedungmundu -->
+        <div class="rs-banyumanik">
+          <p class="image-text">Puskemas Kedungmundu</p>
+          <img src="assets/img/Offline/FOTO PUSKESMAS/Puskesmas kedungmundu.jpg" alt="Puskemas Kedungmundu" />
+        </div>
+    
+        <!-- Tabel Puskemas Kedungmundu -->
+        <div>
+          Berikut merupakan informasi lebih detail mengenai Puskemas Kedungmundu:
+        </div>
+        <div>
+        <table border="3" style="width: 100%; justify-content: center;"
+        <tr>
+          <th colspan="2">Puskemas Kedungmundu</th>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>Jl. Sambiroto Raya, RT.01/RW.01, Sambiroto, Kec. Tembalang, Kota Semarang</td>
+        </tr>
+        <tr>
+          <td>Bidan</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Umum</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Anak</td>
+          <td>Tidak Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Gigi</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>BPJS</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Ambulance</td>
+          <td>1 buah</td>
+        </tr>
+        <tr>
+          <td>Kontak</td>
+          <td>(024) 6717053</td>
+        </tr>
+        <tr>
+          <td>Jam Operasional</td>
+          <td>senin - jumat jam 8.00-16.00 </td>
+        </tr>
+            </div>
+          </table>
+        </div>
+
+        
+        <!-- Puskemas Rowosari -->
+        <div class="rs-banyumanik">
+          <p class="image-text">Puskemas Rowosari</p>
+          <img src="assets/img/Offline/FOTO PUSKESMAS/Puskesmas Pembantu Rowosari.jpg" alt="Puskemas Rowosari" />
+        </div>
+    
+        <!-- Tabel Puskemas Rowosari -->
+        <div>
+          Berikut merupakan informasi lebih detail mengenai Puskemas Rowosari:
+        </div>
+        <div>
+        <table border="3" style="width: 100%; justify-content: center;"
+        <tr>
+          <th colspan="2">Puskemas Rowosari</th>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>Jalan Tunggu Raya, Rowosari, Tembalang, Meteseh, Kec. Tembalang, Kota Semarang</td>
+        </tr>
+        <tr>
+          <td>Bidan</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Umum</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Anak</td>
+          <td>Tidak Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Gigi</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>BPJS</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Ambulance</td>
+          <td>1 buah</td>
+        </tr>
+        <tr>
+          <td>Kontak</td>
+          <td>(024) 76414169</td>
+        </tr>
+        <tr>
+          <td>Jam Operasional</td>
+          <td>senin - jumat jam 8.00-16.00 </td>
+        </tr>
+            </div>
+          </table>
+        </div>
+
+        
+        <!-- Puskemas Pembantu Rowosari -->
+        <div class="rs-banyumanik">
+          <p class="image-text">Puskemas Pembantu Rowosari</p>
+          <img src="assets/img/Offline/FOTO PUSKESMAS/Puskesmas Pembantu Rowosari.jpg" alt="Puskemas Pembantu Rowosari" />
+        </div>
+    
+        <!-- Tabel Puskemas Pembantu Rowosari -->
+        <div>
+          Berikut merupakan informasi lebih detail mengenai Puskemas Pembantu Rowosari:
+        </div>
+        <div>
+        <table border="3" style="width: 100%; justify-content: center;"
+        <tr>
+          <th colspan="2">Puskemas Pembantu Rowosari</th>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>jl.rowosari raya, Rowosari, Kec. Tembalang, Kota Semarang</td>
+        </tr>
+        <tr>
+          <td>Bidan</td>
+          <td>Tidak Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Umum</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Anak</td>
+          <td>Tidak Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Gigi</td>
+          <td> Tidak Ada</td>
+        </tr>
+        <tr>
+          <td>BPJS</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Ambulance</td>
+          <td>1 buah</td>
+        </tr>
+        <tr>
+          <td>Kontak</td>
+          <td>(024) 6725155</td>
+        </tr>
+        <tr>
+          <td>Jam Operasional</td>
+          <td>senin - jumat jam 8.00-16.00 </td>
+        </tr>
+            </div>
+          </table>
+        </div>
+
+        
+        <!-- Puskemas Sendangmulyo -->
+        <div class="rs-banyumanik">
+          <p class="image-text">Puskemas Sendangmulyo</p>
+          <img src="assets/img/Offline/FOTO PUSKESMAS/Puskesmas Sendangmulyo.jpg" alt="Puskemas Sendangmulyo" />
+        </div>
+    
+        <!-- Tabel Puskemas Sendangmulyo -->
+        <div>
+          Berikut merupakan informasi lebih detail mengenai Puskemas Sendangmulyo:
+        </div>
+        <div>
+        <table border="3" style="width: 100%; justify-content: center;"
+        <tr>
+          <th colspan="2">Puskemas Sendangmulyo</th>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>Jl Klipang Raya Sendangmulyo, Kec. Tembalang, Kota Semarang</td>
+        </tr>
+        <tr>
+          <td>Bidan</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Umum</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Anak</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Gigi</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>BPJS</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Ambulance</td>
+          <td>1 buah</td>
+        </tr>
+        <tr>
+          <td>Kontak</td>
+          <td>(024) 6725155</td>
+        </tr>
+        <tr>
+          <td>Jam Operasional</td>
+          <td>senin - jumat jam 8.00-16.00 </td>
+        </tr>
+            </div>
+          </table>
+        </div>
+
+        
+        <!-- Puskemas Mangunharjo -->
+        <div class="rs-banyumanik">
+          <p class="image-text">Puskemas Mangunharjo</p>
+          <img src="assets/img/Offline/FOTO PUSKESMAS/puskesmas mangunharjo.jpeg" alt="Puskemas Mangunharjo" />
+        </div>
+    
+        <!-- Tabel Puskemas Mangunharjo -->
+        <div>
+          Berikut merupakan informasi lebih detail mengenai Puskemas Mangunharjo:
+        </div>
+        <div>
+        <table border="3" style="width: 100%; justify-content: center;"
+        <tr>
+          <th colspan="2">Puskemas Mangunharjo</th>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>Jl Kompol R Soekanto, Mangunharjo, Kec. Tembalang, Kota Semarang</td>
+        </tr>
+        <tr>
+          <td>Bidan</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Umum</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Anak</td>
+          <td>Tidak Ada</td>
+        </tr>
+        <tr>
+          <td>Poli Gigi</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>BPJS</td>
+          <td>Ada</td>
+        </tr>
+        <tr>
+          <td>Ambulance</td>
+          <td>1 buah</td>
+        </tr>
+        <tr>
+          <td>Kontak</td>
+          <td>(024) 78973</td>
+        </tr>
+        <tr>
+          <td>Jam Operasional</td>
+          <td>senin - jumat jam 8.00-16.00 </td>
+        </tr>
+            </div>
+          </table>
+        </div>
+
+  </body>
+</html>
